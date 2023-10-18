@@ -1,0 +1,36 @@
+{
+  "name": "facts.js",
+  "version": "0.0.0-pre-release",
+  "description": "Get random facts in your project with one function call",
+  "main": "index.ts",
+  "module": "module",
+  "scripts": {
+    "test": "vitest",
+    "build": "tsc",
+    "prepare": "husky install"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pacifiquem/facts.js.git"
+  },
+  "keywords": [
+    "facts",
+    "facts.js",
+    "npm",
+    "package",
+    "nodejs"
+  ],
+  "author": "Murangwa Pacifique",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/pacifiquem/facts.js/issues"
+  },
+  "homepage": "https://github.com/pacifiquem/facts.js#readme",
+  "devDependencies": {
+    "husky": "^8.0.3",
+    "vitest": "^0.34.6"
+  },
+  "dependencies": {
+    "axios": "^1.5.1"
+  }
+}

@@ -1,2 +1,3 @@
-# ai-powered-emoji-detector
-This is an ai powered emoji detector built using python .
+# ChartJS
+
+Get random facts in your project with one function call
