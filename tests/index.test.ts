@@ -1,4 +1,4 @@
-import fetchFacts from "..";
+import fetchFacts from "../index.ts";
 import { expect, it, test } from "vitest";
 
 test("Fetch Data Function", () => {

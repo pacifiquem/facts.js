@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "Get random facts in your project with one function call",
   "main": "index.ts",
-  "module": "module",
+  "type": "module",
   "scripts": {
     "test": "vitest --no-watch",
     "build": "tsc",
