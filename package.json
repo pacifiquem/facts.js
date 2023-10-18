@@ -1,9 +1,9 @@
 {
   "name": "@murangwapacifique/facts.js",
-  "version": "1.2.0",
+  "version": "1.2.2",
   "description": "Get random facts in your project with one function call",
   "main": "build/index.js",
-  "types": "dist/index.d.ts",
+  "types": "build/index.d.ts",
   "scripts": {
     "test": "vitest --no-watch",
     "build": "tsc",
@@ -27,11 +27,11 @@
   },
   "homepage": "https://github.com/pacifiquem/facts.js#readme",
   "devDependencies": {
-    "dotenv": "^16.3.1",
     "husky": "^8.0.3",
     "vitest": "^0.34.6"
   },
   "dependencies": {
+    "dotenv": "^16.3.1",
     "axios": "^1.5.1"
   }
 }
