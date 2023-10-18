@@ -1,9 +1,9 @@
 {
   "name": "@murangwapacifique/facts.js",
-  "version": "1.0.0",
+  "version": "1.2.0",
   "description": "Get random facts in your project with one function call",
-  "main": "index.ts",
-  "type": "module",
+  "main": "build/index.js",
+  "types": "dist/index.d.ts",
   "scripts": {
     "test": "vitest --no-watch",
     "build": "tsc",

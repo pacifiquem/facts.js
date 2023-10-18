@@ -1,6 +1,6 @@
 import axios from "axios";
-import api_data from "./utils/api.info.ts";
-import { fetchDataParams } from "./utils/interfaces.ts";
+import api_data from "./utils/api.info";
+import { fetchDataParams } from "./utils/interfaces";
 
 export default function fetchFacts(params?: fetchDataParams) {
     let defaultLimit: number = 1;

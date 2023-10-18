@@ -1,2 +1,2 @@
-import fetchFacts from "./src/facts.js";
+import fetchFacts from "./src/facts";
 export default fetchFacts;
